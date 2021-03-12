@@ -1,0 +1,137 @@
+.orderOnline{
+    height: 60px;
+    width: 100%;
+}
+.h100{
+    height: 100%;
+}
+.w50{
+    width: 50%;
+}
+.h180px{
+    height: 220px;
+}
+.w100{
+    width: 100%;
+}
+.fontBig{
+    font-size: 25px;
+}
+.fontBigger{
+    font-size: 40px;
+}
+.fontBigg{
+    font-size: 35px;
+}
+.mainBg{
+    width: 100%;
+    padding-top: 70px;
+    position: relative;
+}
+.pizzaSpin:hover div img{
+    transform: rotate(90deg);
+    transition: 0.5s;
+}
+.z1{
+    width: 300px;
+    position: absolute;
+    left: -80px;
+}
+.pizzaPic{
+    height: 840px;
+    background: url(http://androthemes.com/themes/html/slices/assets/img/categories-lg/4.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.shrimpPic{
+    height: 840px;
+    background: url(http://androthemes.com/themes/html/slices/assets/img/categories-lg/5.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.menuBook{
+    position: relative;
+}
+.menuCenter{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    position: absolute;
+    left: -25px;
+    top: -25px;
+    border: 1px solid red;
+    z-index: 5;
+}
+.dotDot{
+    width: 100px;
+    height: 2px;
+    border-bottom: 2px dotted black;
+    margin: 15px 20px;
+}
+.card1{
+    position: relative;
+}
+.card1 img{
+    position: absolute;
+    top: -200px;
+}
+.card1:hover img{
+    transition: 0.5s;
+    transform: translateY(-10px);
+}
+.parallax {
+  /* The image used */
+  background-image: url("http://androthemes.com/themes/html/slices/assets/img/bg/cta.jpg");
+
+  /* Full height */
+  height: 400px;
+  width: 100%;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.pizzaBg{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(3, 3, 3, 0.7);
+}
+
+.card2{
+   position: relative;
+}
+.fighterImg{
+    width: 100px;
+    height: 100px;
+    background: url(https://dmxg5wxfqgb4u.cloudfront.net/styles/inline/s3/2020-09/ADESANYA_ISRAEL_BELT_09-26.png?o25iJWhyeRsQdbZrWrGWAD9up5RsIsvD&itok=TLdpkneH);
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+    position: absolute;
+    left: 93px;
+    top: -50px;
+}    
+.fighterImg2{
+    width: 100px;
+    height: 100px;
+    background: url(https://dmxg5wxfqgb4u.cloudfront.net/styles/inline/s3/2019-11/NURMAGOMEDOV_KHABIB_BELT.png?uHqcWKe764bJr7rc_swtEhoQ1VMXUd5B&itok=IuKeJ8sU);
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+    position: absolute;
+    left: 93px;
+    top: -50px;
+} 
+.fighterImg3{
+    width: 100px;
+    height: 100px;
+    background: url(https://dmxg5wxfqgb4u.cloudfront.net/styles/inline/s3/image/ufc-fighter-container/67289/profile-galery/profile-picture/NUNES_AMANDA_2BELTS.png?8JyXsh9_fZmNQm6.zZN3bONtqZRTA0JF&itok=D3leGnHq);
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+    position: absolute;
+    left: 93px;
+    top: -50px;
+} 
